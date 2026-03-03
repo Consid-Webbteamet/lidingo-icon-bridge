@@ -1,0 +1,68 @@
+.acf-field-icon {
+  --lidingo-admin-icon-weight: 500;
+}
+
+.acf-field-icon .lidingo-icon-bridge__glyph {
+  font-family: "Lidingo Logical", sans-serif !important;
+  font-style: normal;
+  font-weight: var(--lidingo-admin-icon-weight, 500);
+  text-transform: none;
+  line-height: 1;
+  letter-spacing: normal;
+  font-feature-settings: "liga";
+  font-variant-ligatures: common-ligatures contextual;
+  -webkit-font-smoothing: antialiased;
+}
+
+.acf-field-icon .acf-icon-field__list-item .lidingo-icon-bridge__glyph {
+  font-size: 1.75rem;
+}
+
+.acf-field-icon .acf-icon-field__preview-icon.lidingo-icon-bridge__glyph {
+  font-size: 3rem;
+}
+
+.acf-field-icon .acf-icon-field__preview-icon-name {
+  text-wrap: balance;
+}
+
+.c-icon[data-material-symbol^=":"][data-material-symbol$=":"] {
+  --lidingo-icon-weight: 500;
+}
+
+.c-icon[data-material-symbol^=":"][data-material-symbol$=":"].material-symbols:after,
+.c-icon[data-material-symbol^=":"][data-material-symbol$=":"].material-icons:after {
+  font-family: "Lidingo Logical", sans-serif !important;
+  font-style: normal;
+  font-weight: var(--lidingo-icon-weight, 500);
+  text-transform: none;
+  letter-spacing: normal;
+  font-feature-settings: "liga";
+  font-variant-ligatures: common-ligatures contextual;
+  font-variation-settings: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Manual token overrides: set specific tokens/selectors to regular (400). */
+/* Example frontend token override (short selector, no :after needed): */
+/* .c-icon[data-material-symbol=":bil:"] {
+  --lidingo-icon-weight: 400;
+} */
+
+/* Example admin picker override: */
+/* .acf-field-icon [data-js-acf-icon-field-item=":bil:"] {
+  --lidingo-admin-icon-weight: 400;
+} */
+
+/* Utility classes for quick manual weight control. */
+.lidingo-icon-bridge--regular {
+  --lidingo-icon-weight: 400 !important;
+  --lidingo-admin-icon-weight: 400 !important;
+  font-weight: 400 !important;
+}
+
+.lidingo-icon-bridge--medium {
+  --lidingo-icon-weight: 500 !important;
+  --lidingo-admin-icon-weight: 500 !important;
+  font-weight: 500 !important;
+}

@@ -1,0 +1,1167 @@
+[
+  {
+    "token": ":glad:",
+    "label": "Glad",
+    "keywords": []
+  },
+  {
+    "token": ":neutral:",
+    "label": "Neutral",
+    "keywords": []
+  },
+  {
+    "token": ":ledsen:",
+    "label": "Ledsen",
+    "keywords": []
+  },
+  {
+    "token": ":blink:",
+    "label": "Blink",
+    "keywords": [
+      "wink",
+      "smile",
+      "face",
+      "emoji"
+    ]
+  },
+  {
+    "token": ":spöke:",
+    "label": "Spöke",
+    "keywords": []
+  },
+  {
+    "token": ":döskalle:",
+    "label": "Döskalle",
+    "keywords": []
+  },
+  {
+    "token": ":utomjording:",
+    "label": "Utomjording",
+    "keywords": []
+  },
+  {
+    "token": ":robot:",
+    "label": "Robot",
+    "keywords": []
+  },
+  {
+    "token": ":katt:",
+    "label": "Katt",
+    "keywords": []
+  },
+  {
+    "token": ":tass:",
+    "label": "Tass",
+    "keywords": []
+  },
+  {
+    "token": ":hästsko:",
+    "label": "Hästsko",
+    "keywords": []
+  },
+  {
+    "token": ":applåd:",
+    "label": "Applåd",
+    "keywords": []
+  },
+  {
+    "token": ":gilla:",
+    "label": "Gilla",
+    "keywords": []
+  },
+  {
+    "token": ":peka:",
+    "label": "Peka",
+    "keywords": []
+  },
+  {
+    "token": ":hand:",
+    "label": "Hand",
+    "keywords": []
+  },
+  {
+    "token": ":smink:",
+    "label": "Smink",
+    "keywords": []
+  },
+  {
+    "token": ":puss:",
+    "label": "Puss",
+    "keywords": []
+  },
+  {
+    "token": ":öra:",
+    "label": "Öra",
+    "keywords": []
+  },
+  {
+    "token": ":öga:",
+    "label": "Öga",
+    "keywords": []
+  },
+  {
+    "token": ":ögon:",
+    "label": "Ögon",
+    "keywords": []
+  },
+  {
+    "token": ":tänka:",
+    "label": "Tänka",
+    "keywords": []
+  },
+  {
+    "token": ":användare:",
+    "label": "Användare",
+    "keywords": []
+  },
+  {
+    "token": ":grupp:",
+    "label": "Grupp",
+    "keywords": []
+  },
+  {
+    "token": ":baby:",
+    "label": "Baby",
+    "keywords": []
+  },
+  {
+    "token": ":tröja:",
+    "label": "Tröja",
+    "keywords": []
+  },
+  {
+    "token": ":byxa:",
+    "label": "Byxa",
+    "keywords": []
+  },
+  {
+    "token": ":bh:",
+    "label": "Bh",
+    "keywords": []
+  },
+  {
+    "token": ":underbyxa:",
+    "label": "Underbyxa",
+    "keywords": []
+  },
+  {
+    "token": ":sko:",
+    "label": "Sko",
+    "keywords": []
+  },
+  {
+    "token": ":högklackat:",
+    "label": "Högklackat",
+    "keywords": []
+  },
+  {
+    "token": ":examen:",
+    "label": "Examen",
+    "keywords": []
+  },
+  {
+    "token": ":drottning:",
+    "label": "Drottning",
+    "keywords": []
+  },
+  {
+    "token": ":kung:",
+    "label": "Kung",
+    "keywords": []
+  },
+  {
+    "token": ":handväska:",
+    "label": "Handväska",
+    "keywords": []
+  },
+  {
+    "token": ":portfölj:",
+    "label": "Portfölj",
+    "keywords": []
+  },
+  {
+    "token": ":fågel:",
+    "label": "Fågel",
+    "keywords": []
+  },
+  {
+    "token": ":insekt:",
+    "label": "Insekt",
+    "keywords": []
+  },
+  {
+    "token": ":fisk:",
+    "label": "Fisk",
+    "keywords": []
+  },
+  {
+    "token": ":gran:",
+    "label": "Gran",
+    "keywords": []
+  },
+  {
+    "token": ":träd:",
+    "label": "Träd",
+    "keywords": []
+  },
+  {
+    "token": ":fyrklöver:",
+    "label": "Fyrklöver",
+    "keywords": []
+  },
+  {
+    "token": ":blad:",
+    "label": "Blad",
+    "keywords": []
+  },
+  {
+    "token": ":svamp:",
+    "label": "Svamp",
+    "keywords": []
+  },
+  {
+    "token": ":blomma:",
+    "label": "Blomma",
+    "keywords": []
+  },
+  {
+    "token": ":jordglob:",
+    "label": "Jordglob",
+    "keywords": []
+  },
+  {
+    "token": ":sol:",
+    "label": "Sol",
+    "keywords": []
+  },
+  {
+    "token": ":måne:",
+    "label": "Måne",
+    "keywords": []
+  },
+  {
+    "token": ":stjärna:",
+    "label": "Stjärna",
+    "keywords": []
+  },
+  {
+    "token": ":davidsstjärna:",
+    "label": "Davidsstjärna",
+    "keywords": []
+  },
+  {
+    "token": ":blixt:",
+    "label": "Blixt",
+    "keywords": []
+  },
+  {
+    "token": ":eld:",
+    "label": "Eld",
+    "keywords": []
+  },
+  {
+    "token": ":tornado:",
+    "label": "Tornado",
+    "keywords": []
+  },
+  {
+    "token": ":small:",
+    "label": "Small",
+    "keywords": []
+  },
+  {
+    "token": ":väder:",
+    "label": "Väder",
+    "keywords": []
+  },
+  {
+    "token": ":moln:",
+    "label": "Moln",
+    "keywords": []
+  },
+  {
+    "token": ":oväder:",
+    "label": "Oväder",
+    "keywords": []
+  },
+  {
+    "token": ":laddaupp:",
+    "label": "Laddaupp",
+    "keywords": []
+  },
+  {
+    "token": ":laddaner:",
+    "label": "Laddaner",
+    "keywords": []
+  },
+  {
+    "token": ":snö:",
+    "label": "Snö",
+    "keywords": []
+  },
+  {
+    "token": ":vind:",
+    "label": "Vind",
+    "keywords": []
+  },
+  {
+    "token": ":droppe:",
+    "label": "Droppe",
+    "keywords": []
+  },
+  {
+    "token": ":paraply:",
+    "label": "Paraply",
+    "keywords": []
+  },
+  {
+    "token": ":äpple:",
+    "label": "Äpple",
+    "keywords": []
+  },
+  {
+    "token": ":citron:",
+    "label": "Citron",
+    "keywords": []
+  },
+  {
+    "token": ":aubergine:",
+    "label": "Aubergine",
+    "keywords": []
+  },
+  {
+    "token": ":rostbröd:",
+    "label": "Rostbröd",
+    "keywords": []
+  },
+  {
+    "token": ":bröd:",
+    "label": "Bröd",
+    "keywords": []
+  },
+  {
+    "token": ":ägg:",
+    "label": "Ägg",
+    "keywords": []
+  },
+  {
+    "token": ":tårtbit:",
+    "label": "Tårtbit",
+    "keywords": []
+  },
+  {
+    "token": ":kopp:",
+    "label": "Kopp",
+    "keywords": []
+  },
+  {
+    "token": ":flaska:",
+    "label": "Flaska",
+    "keywords": []
+  },
+  {
+    "token": ":öl:",
+    "label": "Öl",
+    "keywords": []
+  },
+  {
+    "token": ":vin:",
+    "label": "Vin",
+    "keywords": []
+  },
+  {
+    "token": ":champagne:",
+    "label": "Champagne",
+    "keywords": []
+  },
+  {
+    "token": ":mat:",
+    "label": "Mat",
+    "keywords": []
+  },
+  {
+    "token": ":fotboll:",
+    "label": "Fotboll",
+    "keywords": []
+  },
+  {
+    "token": ":basket:",
+    "label": "Basket",
+    "keywords": []
+  },
+  {
+    "token": ":tennis:",
+    "label": "Tennis",
+    "keywords": []
+  },
+  {
+    "token": ":rugby:",
+    "label": "Rugby",
+    "keywords": []
+  },
+  {
+    "token": ":pokal:",
+    "label": "Pokal",
+    "keywords": []
+  },
+  {
+    "token": ":biljett:",
+    "label": "Biljett",
+    "keywords": []
+  },
+  {
+    "token": ":teater:",
+    "label": "Teater",
+    "keywords": []
+  },
+  {
+    "token": ":film:",
+    "label": "Film",
+    "keywords": []
+  },
+  {
+    "token": ":mikrofon:",
+    "label": "Mikrofon",
+    "keywords": []
+  },
+  {
+    "token": ":tyst:",
+    "label": "Tyst",
+    "keywords": []
+  },
+  {
+    "token": ":hörlurar:",
+    "label": "Hörlurar",
+    "keywords": []
+  },
+  {
+    "token": ":måltavla:",
+    "label": "Måltavla",
+    "keywords": []
+  },
+  {
+    "token": ":bil:",
+    "label": "Bil",
+    "keywords": []
+  },
+  {
+    "token": ":buss:",
+    "label": "Buss",
+    "keywords": []
+  },
+  {
+    "token": ":lastbil:",
+    "label": "Lastbil",
+    "keywords": []
+  },
+  {
+    "token": ":tåg:",
+    "label": "Tåg",
+    "keywords": []
+  },
+  {
+    "token": ":traktor:",
+    "label": "Traktor",
+    "keywords": []
+  },
+  {
+    "token": ":cykel:",
+    "label": "Cykel",
+    "keywords": []
+  },
+  {
+    "token": ":taxi:",
+    "label": "Taxi",
+    "keywords": []
+  },
+  {
+    "token": ":helikopter:",
+    "label": "Helikopter",
+    "keywords": []
+  },
+  {
+    "token": ":flygplan:",
+    "label": "Flygplan",
+    "keywords": []
+  },
+  {
+    "token": ":båt:",
+    "label": "Båt",
+    "keywords": []
+  },
+  {
+    "token": ":ankare:",
+    "label": "Ankare",
+    "keywords": []
+  },
+  {
+    "token": ":livboj:",
+    "label": "Livboj",
+    "keywords": []
+  },
+  {
+    "token": ":hus:",
+    "label": "Hus",
+    "keywords": []
+  },
+  {
+    "token": ":tempel:",
+    "label": "Tempel",
+    "keywords": []
+  },
+  {
+    "token": ":kyrka:",
+    "label": "Kyrka",
+    "keywords": []
+  },
+  {
+    "token": ":dator:",
+    "label": "Dator",
+    "keywords": []
+  },
+  {
+    "token": ":kamera:",
+    "label": "Kamera",
+    "keywords": []
+  },
+  {
+    "token": ":fotoförbud:",
+    "label": "Fotoförbud",
+    "keywords": []
+  },
+  {
+    "token": ":mobil:",
+    "label": "Mobil",
+    "keywords": []
+  },
+  {
+    "token": ":mobilförbud:",
+    "label": "Mobilförbud",
+    "keywords": []
+  },
+  {
+    "token": ":telefon:",
+    "label": "Telefon",
+    "keywords": []
+  },
+  {
+    "token": ":fax:",
+    "label": "Fax",
+    "keywords": []
+  },
+  {
+    "token": ":skrivare:",
+    "label": "Skrivare",
+    "keywords": []
+  },
+  {
+    "token": ":tv:",
+    "label": "Tv",
+    "keywords": []
+  },
+  {
+    "token": ":video:",
+    "label": "Video",
+    "keywords": []
+  },
+  {
+    "token": ":inställning:",
+    "label": "Inställning",
+    "keywords": [
+      "settings",
+      "gear",
+      "config"
+    ]
+  },
+  {
+    "token": ":alarm:",
+    "label": "Alarm",
+    "keywords": []
+  },
+  {
+    "token": ":timglas:",
+    "label": "Timglas",
+    "keywords": []
+  },
+  {
+    "token": ":signal:",
+    "label": "Signal",
+    "keywords": []
+  },
+  {
+    "token": ":batteri:",
+    "label": "Batteri",
+    "keywords": []
+  },
+  {
+    "token": ":glödlampa:",
+    "label": "Glödlampa",
+    "keywords": []
+  },
+  {
+    "token": ":betalkort:",
+    "label": "Betalkort",
+    "keywords": []
+  },
+  {
+    "token": ":diamant:",
+    "label": "Diamant",
+    "keywords": []
+  },
+  {
+    "token": ":verktyg:",
+    "label": "Verktyg",
+    "keywords": []
+  },
+  {
+    "token": ":hammare:",
+    "label": "Hammare",
+    "keywords": []
+  },
+  {
+    "token": ":kugghjul:",
+    "label": "Kugghjul",
+    "keywords": []
+  },
+  {
+    "token": ":bomb:",
+    "label": "Bomb",
+    "keywords": []
+  },
+  {
+    "token": ":kniv:",
+    "label": "Kniv",
+    "keywords": []
+  },
+  {
+    "token": ":sköld:",
+    "label": "Sköld",
+    "keywords": []
+  },
+  {
+    "token": ":rökning:",
+    "label": "Rökning",
+    "keywords": []
+  },
+  {
+    "token": ":rökförbud:",
+    "label": "Rökförbud",
+    "keywords": []
+  },
+  {
+    "token": ":vetenskap:",
+    "label": "Vetenskap",
+    "keywords": []
+  },
+  {
+    "token": ":magnet:",
+    "label": "Magnet",
+    "keywords": []
+  },
+  {
+    "token": ":piller:",
+    "label": "Piller",
+    "keywords": []
+  },
+  {
+    "token": ":spruta:",
+    "label": "Spruta",
+    "keywords": []
+  },
+  {
+    "token": ":nyckel:",
+    "label": "Nyckel",
+    "keywords": []
+  },
+  {
+    "token": ":sök:",
+    "label": "Sök",
+    "keywords": [
+      "search",
+      "find",
+      "lookup"
+    ]
+  },
+  {
+    "token": ":kundvagn:",
+    "label": "Kundvagn",
+    "keywords": []
+  },
+  {
+    "token": ":present:",
+    "label": "Present",
+    "keywords": []
+  },
+  {
+    "token": ":ballong:",
+    "label": "Ballong",
+    "keywords": []
+  },
+  {
+    "token": ":sax:",
+    "label": "Sax",
+    "keywords": []
+  },
+  {
+    "token": ":skicka:",
+    "label": "Skicka",
+    "keywords": []
+  },
+  {
+    "token": ":post:",
+    "label": "Post",
+    "keywords": []
+  },
+  {
+    "token": ":fack:",
+    "label": "Fack",
+    "keywords": []
+  },
+  {
+    "token": ":inkorg:",
+    "label": "Inkorg",
+    "keywords": []
+  },
+  {
+    "token": ":utkorg:",
+    "label": "Utkorg",
+    "keywords": []
+  },
+  {
+    "token": ":låda:",
+    "label": "Låda",
+    "keywords": []
+  },
+  {
+    "token": ":dokument:",
+    "label": "Dokument",
+    "keywords": []
+  },
+  {
+    "token": ":papper:",
+    "label": "Papper",
+    "keywords": []
+  },
+  {
+    "token": ":anteckning:",
+    "label": "Anteckning",
+    "keywords": []
+  },
+  {
+    "token": ":kalender:",
+    "label": "Kalender",
+    "keywords": []
+  },
+  {
+    "token": ":arkiv:",
+    "label": "Arkiv",
+    "keywords": []
+  },
+  {
+    "token": ":mapp:",
+    "label": "Mapp",
+    "keywords": []
+  },
+  {
+    "token": ":öppenmapp:",
+    "label": "Öppenmapp",
+    "keywords": []
+  },
+  {
+    "token": ":bok:",
+    "label": "Bok",
+    "keywords": []
+  },
+  {
+    "token": ":läsa:",
+    "label": "Läsa",
+    "keywords": []
+  },
+  {
+    "token": ":bokmärke:",
+    "label": "Bokmärke",
+    "keywords": []
+  },
+  {
+    "token": ":länk:",
+    "label": "Länk",
+    "keywords": []
+  },
+  {
+    "token": ":gem:",
+    "label": "Gem",
+    "keywords": []
+  },
+  {
+    "token": ":platsnål:",
+    "label": "Platsnål",
+    "keywords": []
+  },
+  {
+    "token": ":gps:",
+    "label": "Gps",
+    "keywords": []
+  },
+  {
+    "token": ":penna:",
+    "label": "Penna",
+    "keywords": []
+  },
+  {
+    "token": ":sudd:",
+    "label": "Sudd",
+    "keywords": []
+  },
+  {
+    "token": ":lås:",
+    "label": "Lås",
+    "keywords": []
+  },
+  {
+    "token": ":låsupp:",
+    "label": "Låsupp",
+    "keywords": []
+  },
+  {
+    "token": ":fred:",
+    "label": "Fred",
+    "keywords": []
+  },
+  {
+    "token": ":kvinnlig:",
+    "label": "Kvinnlig",
+    "keywords": []
+  },
+  {
+    "token": ":manlig:",
+    "label": "Manlig",
+    "keywords": []
+  },
+  {
+    "token": ":strålning:",
+    "label": "Strålning",
+    "keywords": []
+  },
+  {
+    "token": ":förbjudet:",
+    "label": "Förbjudet",
+    "keywords": []
+  },
+  {
+    "token": ":stopp:",
+    "label": "Stopp",
+    "keywords": []
+  },
+  {
+    "token": ":återvinning:",
+    "label": "Återvinning",
+    "keywords": []
+  },
+  {
+    "token": ":rullstol:",
+    "label": "Rullstol",
+    "keywords": []
+  },
+  {
+    "token": ":man:",
+    "label": "Man",
+    "keywords": []
+  },
+  {
+    "token": ":kvinna:",
+    "label": "Kvinna",
+    "keywords": []
+  },
+  {
+    "token": ":skräp:",
+    "label": "Skräp",
+    "keywords": []
+  },
+  {
+    "token": ":spela:",
+    "label": "Spela",
+    "keywords": []
+  },
+  {
+    "token": ":bakåt:",
+    "label": "Bakåt",
+    "keywords": []
+  },
+  {
+    "token": ":skickavidare:",
+    "label": "Skickavidare",
+    "keywords": [
+      "forward",
+      "send"
+    ]
+  },
+  {
+    "token": ":svara:",
+    "label": "Svara",
+    "keywords": [
+      "reply",
+      "mail"
+    ]
+  },
+  {
+    "token": ":svaraalla:",
+    "label": "Svaraalla",
+    "keywords": [
+      "reply all",
+      "mail"
+    ]
+  },
+  {
+    "token": ":vänster:",
+    "label": "Vänster",
+    "keywords": [
+      "left",
+      "arrow",
+      "navigation"
+    ]
+  },
+  {
+    "token": ":höger:",
+    "label": "Höger",
+    "keywords": [
+      "right",
+      "arrow",
+      "navigation"
+    ]
+  },
+  {
+    "token": ":vänsterupp:",
+    "label": "Vänsterupp",
+    "keywords": []
+  },
+  {
+    "token": ":högerupp:",
+    "label": "Högerupp",
+    "keywords": []
+  },
+  {
+    "token": ":vänsterner:",
+    "label": "Vänsterner",
+    "keywords": []
+  },
+  {
+    "token": ":högerner:",
+    "label": "Högerner",
+    "keywords": []
+  },
+  {
+    "token": ":upp:",
+    "label": "Upp",
+    "keywords": [
+      "up",
+      "arrow",
+      "navigation"
+    ]
+  },
+  {
+    "token": ":ner:",
+    "label": "Ner",
+    "keywords": [
+      "down",
+      "arrow",
+      "navigation"
+    ]
+  },
+  {
+    "token": ":omstart:",
+    "label": "Omstart",
+    "keywords": [
+      "restart",
+      "reload"
+    ]
+  },
+  {
+    "token": ":rotera:",
+    "label": "Rotera",
+    "keywords": [
+      "rotate",
+      "refresh"
+    ]
+  },
+  {
+    "token": ":medsols:",
+    "label": "Medsols",
+    "keywords": [
+      "clockwise",
+      "rotate"
+    ]
+  },
+  {
+    "token": ":motsols:",
+    "label": "Motsols",
+    "keywords": [
+      "counterclockwise",
+      "rotate"
+    ]
+  },
+  {
+    "token": ":hoppaöver:",
+    "label": "Hoppaöver",
+    "keywords": []
+  },
+  {
+    "token": ":tillbaka:",
+    "label": "Tillbaka",
+    "keywords": []
+  },
+  {
+    "token": ":motsatt:",
+    "label": "Motsatt",
+    "keywords": []
+  },
+  {
+    "token": ":blanda:",
+    "label": "Blanda",
+    "keywords": []
+  },
+  {
+    "token": ":byt:",
+    "label": "Byt",
+    "keywords": []
+  },
+  {
+    "token": ":återanvänd:",
+    "label": "Återanvänd",
+    "keywords": []
+  },
+  {
+    "token": ":utöka:",
+    "label": "Utöka",
+    "keywords": []
+  },
+  {
+    "token": ":vägbeskrivning:",
+    "label": "Vägbeskrivning",
+    "keywords": []
+  },
+  {
+    "token": ":riktning:",
+    "label": "Riktning",
+    "keywords": []
+  },
+  {
+    "token": ":minska:",
+    "label": "Minska",
+    "keywords": []
+  },
+  {
+    "token": ":radera:",
+    "label": "Radera",
+    "keywords": []
+  },
+  {
+    "token": ":rensa:",
+    "label": "Rensa",
+    "keywords": []
+  },
+  {
+    "token": ":musik:",
+    "label": "Musik",
+    "keywords": []
+  },
+  {
+    "token": ":bock:",
+    "label": "Bock",
+    "keywords": []
+  },
+  {
+    "token": ":bockruta:",
+    "label": "Bockruta",
+    "keywords": []
+  },
+  {
+    "token": ":kryssruta:",
+    "label": "Kryssruta",
+    "keywords": []
+  },
+  {
+    "token": ":kryss:",
+    "label": "Kryss",
+    "keywords": []
+  },
+  {
+    "token": ":ruta:",
+    "label": "Ruta",
+    "keywords": []
+  },
+  {
+    "token": ":spiral:",
+    "label": "Spiral",
+    "keywords": []
+  },
+  {
+    "token": ":ljudpå:",
+    "label": "Ljudpå",
+    "keywords": []
+  },
+  {
+    "token": ":ringklocka:",
+    "label": "Ringklocka",
+    "keywords": []
+  },
+  {
+    "token": ":megafon:",
+    "label": "Megafon",
+    "keywords": []
+  },
+  {
+    "token": ":pratbubbla:",
+    "label": "Pratbubbla",
+    "keywords": []
+  },
+  {
+    "token": ":pratbubblor:",
+    "label": "Pratbubblor",
+    "keywords": []
+  },
+  {
+    "token": ":tankebubbla:",
+    "label": "Tankebubbla",
+    "keywords": []
+  },
+  {
+    "token": ":spader:",
+    "label": "Spader",
+    "keywords": []
+  },
+  {
+    "token": ":klöver:",
+    "label": "Klöver",
+    "keywords": []
+  },
+  {
+    "token": ":hjärta:",
+    "label": "Hjärta",
+    "keywords": []
+  },
+  {
+    "token": ":ruter:",
+    "label": "Ruter",
+    "keywords": []
+  },
+  {
+    "token": ":klocka:",
+    "label": "Klocka",
+    "keywords": []
+  },
+  {
+    "token": ":flagga:",
+    "label": "Flagga",
+    "keywords": []
+  },
+  {
+    "token": ":vimpel:",
+    "label": "Vimpel",
+    "keywords": []
+  },
+  {
+    "token": ":ljudav:",
+    "label": "Ljudav",
+    "keywords": []
+  }
+]
