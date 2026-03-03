@@ -1,0 +1,12 @@
+{
+  "name": "consid-webbteamet/lidingo-icon-bridge",
+  "type": "wordpress-plugin",
+  "description": "Lidingo Icon Bridge",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0"
+  },
+  "extra": {
+    "installer-name": "lidingo-icon-bridge"
+  }
+}
