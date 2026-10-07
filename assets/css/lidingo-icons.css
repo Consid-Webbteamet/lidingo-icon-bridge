@@ -30,11 +30,13 @@
   --lidingo-icon-weight: 500;
 }
 
-.c-icon[data-material-symbol^=":"][data-material-symbol$=":"].material-symbols:after,
-.c-icon[data-material-symbol^=":"][data-material-symbol$=":"].material-icons:after {
+.c-icon[data-material-symbol^=":"][data-material-symbol$=":"]:after {
+  content: attr(data-material-symbol);
+  white-space: nowrap;
   font-family: "Lidingo Logical", sans-serif !important;
   font-style: normal;
   font-weight: var(--lidingo-icon-weight, 500);
+  line-height: 1;
   text-transform: none;
   letter-spacing: normal;
   font-feature-settings: "liga";

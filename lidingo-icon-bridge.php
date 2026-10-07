@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Lidingo Icon Bridge
  * Description: Replaces the ACF icon picker with Lidingo ligature tokens and renders token icons in frontend.
- * Version: 0.1.0
+ * Version: 0.1.1
  */
 
 if (!defined('ABSPATH')) {
@@ -10,7 +10,7 @@ if (!defined('ABSPATH')) {
 }
 
 if (!defined('LIDINGO_ICON_BRIDGE_VERSION')) {
-    define('LIDINGO_ICON_BRIDGE_VERSION', '0.1.0');
+    define('LIDINGO_ICON_BRIDGE_VERSION', '0.1.1');
 }
 
 if (!defined('LIDINGO_ICON_BRIDGE_PATH')) {
@@ -184,6 +184,13 @@ function lidingo_icon_bridge_map_collapsible_search_icons_to_token($data)
         return $data;
     }
 
+    $attributes = $data['attributeList'] ?? [];
+    if (array_key_exists('data-js-collapsible-search-trigger', $attributes)
+        || array_key_exists('data-js-collapsible-search-submit', $attributes)) {
+        $data['icon'] = ':sök:';
+        return $data;
+    }
+
     $classList = $data['classList'] ?? null;
     if (!is_array($classList) || empty($classList)) {
         return $data;
@@ -205,6 +212,29 @@ function lidingo_icon_bridge_map_collapsible_search_icons_to_token($data)
 }
 
 add_filter('ComponentLibrary/Component/Button/Data', 'lidingo_icon_bridge_map_collapsible_search_icons_to_token', 20);
+
+/**
+ * Keep font ligatures available when Component Library renders Material SVGs.
+ * Standard Material names and SVG icons retain their upstream rendering.
+ */
+function lidingo_icon_bridge_prepare_token_icon($data)
+{
+    if (!is_array($data)) {
+        return $data;
+    }
+
+    $token = $data['icon'] ?? '';
+    if (!is_string($token) || !preg_match('/^:.+:$/u', trim($token))) {
+        return $data;
+    }
+
+    $data['attributeList']['data-material-symbol'] = trim($token);
+    $data['decorative'] = true;
+
+    return $data;
+}
+
+add_filter('ComponentLibrary/Component/Icon/Data', 'lidingo_icon_bridge_prepare_token_icon', 20);
 
 /**
  * Make token-based ligature icons decorative by default.

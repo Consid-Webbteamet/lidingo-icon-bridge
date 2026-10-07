@@ -6,7 +6,8 @@ This plugin replaces the default ACF icon picker (Material symbols) with Lidingo
 ## What It Does
 - Overrides `window.getAcfIcons` in admin/block editor and uses a local JSON catalog.
 - Renders picker preview/list with the Lidingo icon font.
-- Enqueues frontend/admin CSS that renders token values on `.c-icon[data-material-symbol=":token:"]`.
+- Adds the ligature value through `ComponentLibrary/Component/Icon/Data` and renders it on `.c-icon[data-material-symbol=":token:"]::after`, including Styleguide v3's SVG-based markup.
+- Marks token icons as decorative, avoiding undefined icon labels in assistive technology.
 - Keeps legacy Material values readable in admin preview until an editor re-selects an icon.
 
 ## Files
@@ -25,7 +26,7 @@ This plugin replaces the default ACF icon picker (Material symbols) with Lidingo
 2. JS replaces global `getAcfIcons`.
 3. On open (and auto-init), JS loads catalog JSON once and initializes each icon field.
 4. Selected token is stored in hidden ACF input.
-5. Frontend renders icon from `data-material-symbol` when value is token-formatted.
+5. The icon data filter preserves token-formatted values in `data-material-symbol`; CSS renders the font ligature instead of requesting a Material SVG for that token.
 
 ## Configurable Filters
 - `lidingo_icon_bridge/font_medium_url`
@@ -72,6 +73,11 @@ Rules:
 - Icon rendering defaults to medium Lidingo weight (`500`), with optional manual per-token overrides to regular (`400`).
 - Existing Material icon values are preserved and still displayed in admin preview.
 - Catalog URL is cache-busted with `catalog_version`/filemtime by default.
+- Header search trigger/submit icons use the Lidingo search ligature; both legacy classes and current `data-js-collapsible-search-*` attributes are supported.
+
+## Source and deployment
+
+`packages/lidingo-icon-bridge/` is the canonical local source. The copy in `wp-content/plugins/lidingo-icon-bridge/` is installed runtime output. Keep fixes in the source package and deliver the updated plugin through the deployment project's Composer/package workflow. The deployment project already requires this package in `composer.local.json`, pinned to `0.1.0`. Release the migration fix and update that pin and the local lockfile before production deployment; a local runtime sync alone does not update the Composer version.
 
 ## Manual Weight Overrides (CSS)
 Use CSS when a specific token should render as regular:
