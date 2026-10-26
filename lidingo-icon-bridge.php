@@ -167,6 +167,18 @@ add_action('wp_enqueue_scripts', 'lidingo_icon_bridge_enqueue_styles', 110);
 add_action('admin_enqueue_scripts', 'lidingo_icon_bridge_enqueue_styles', 110);
 add_action('enqueue_block_editor_assets', 'lidingo_icon_bridge_enqueue_styles', 110);
 
+/**
+ * Load icon styles inside the iframed block editor canvas as well.
+ */
+function lidingo_icon_bridge_enqueue_block_canvas_styles(): void
+{
+    if (is_admin()) {
+        lidingo_icon_bridge_enqueue_styles();
+    }
+}
+
+add_action('enqueue_block_assets', 'lidingo_icon_bridge_enqueue_block_canvas_styles', 110);
+
 add_action('admin_enqueue_scripts', 'lidingo_icon_bridge_enqueue_admin_scripts', 110);
 add_action('enqueue_block_editor_assets', 'lidingo_icon_bridge_enqueue_admin_scripts', 110);
 
